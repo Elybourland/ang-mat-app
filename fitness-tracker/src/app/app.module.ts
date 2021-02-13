@@ -18,6 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import{ FormsModule } from '@angular/forms';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     FlexLayoutModule,
     FormsModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
