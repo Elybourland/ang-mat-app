@@ -15,10 +15,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import{ FormsModule } from '@angular/forms';
+import{ FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -43,7 +43,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     FormsModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
